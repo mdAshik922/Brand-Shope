@@ -27,7 +27,7 @@ const showProducts = (products) => {
       <p class="text-center b-5">Category: ${product.category}</p>
       <h2 class="text-center">Price: $ ${product.price}</h2>
       <h5 class="text-center">Total-Rating : ${count}   </h5>
-      <h6 class="text-center">Average-rating: ${rate}"></i></h6>
+      <h6 class="text-center">Average-rating: ${rate}"></h6>
       <div class="d-flex justify-content-end w-100   ">
       <button onclick="addTocard(${product.id},${product.price})" id="addTocard-btn" class="buy-now btn btn-success  mx-1 ">add to card</button>
       <button id="details-btn" onclick='showDetails(${product.price},${rate})' class="btn btn-danger mx-1 " data-bs-toggle="modal" data-bs-target="#exampleModal">Details</button></div></div>
